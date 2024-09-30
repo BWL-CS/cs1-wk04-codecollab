@@ -5,6 +5,7 @@ html {
 
 body {
 	font-family: 'Georgia', sans-serif;
+	background-color: rgb(176, 230, 230); 
 }
 
 h1,
@@ -13,7 +14,7 @@ h3 {
 }
 
 h1 {
-	color: rgb(131, 44, 213);
+	color: rgb(93, 48, 135);
 	text-align: center;
 	font-size: 48px;
 	text-shadow: black 0 0 10px;
@@ -23,12 +24,13 @@ p {
 	background-color: plum;
 }
 
-div {
-	text-align: center;
+img {
+	padding: 5px;
 }
 
-img {
-	margin: 3px;
+div.centered-container {
+	text-align: center;
+	margin: auto;
 }
 
 #image-1 {
