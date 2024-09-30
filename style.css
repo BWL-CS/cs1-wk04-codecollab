@@ -13,17 +13,22 @@ h3 {
 }
 
 h1 {
+	color: rgb(131, 44, 213);
 	text-align: center;
 	font-size: 48px;
 	text-shadow: black 0 0 10px;
 }
 
 p {
-	background-color: lilac;
+	background-color: plum;
 }
 
 div {
 	text-align: center;
+}
+
+img {
+	margin: 3px;
 }
 
 #image-1 {
