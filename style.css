@@ -1,37 +1,51 @@
+/* TAG Selectors */
+
 html {
 	height: 100%;
 	width: 100%;
 }
 
 body {
-	font-family: 'Georgia', sans-serif;
-	background-color: rgb(176, 230, 230); 
-}
-
-h1,
-h3 {
-	font-family: 'Brush Script MT', cursive;
+	background: rgb(176, 230, 230); 
 }
 
 h1 {
 	color: rgb(93, 48, 135);
 	text-align: center;
 	font-size: 48px;
-	text-shadow: black 0 0 10px;
+	text-shadow: black 0 0 8px;
 }
 
 p {
-	background-color: plum;
+	background: plum;
+	color: navy;
+	font-family: 'Georgia', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Verdana', cursive;
 }
 
 img {
 	padding: 5px;
+	margin: 10px;
+	box-shadow: black 0 0 10px;
 }
 
-div.centered-container {
+/* CLASS Selectors - where are these found the HTML code? */
+
+.pink-text {
+	color: #dd2782;
+	text-transform: uppercase;
+	font-size: 42px;
+}
+
+.centered-group {
 	text-align: center;
 	margin: auto;
 }
+
+/* ID Selectors */
 
 #image-1 {
 	height: 150px;
@@ -43,9 +57,4 @@ div.centered-container {
 #image-2 {
 	width: 300px;
 	border: dotted 5px darkgrey;
-}
-
-.emphasize {
-	color: #dd2782;
-	text-transform: uppercase;
 }
